@@ -1,16 +1,30 @@
 h1{
-    color: chartreuse;
+    color: rgb(0, 0, 0);
+}
+.outBox{
+    display: flex;
 }
 .card{
-    height: 200px;
-    width: 100px;
-    border: 2px solid black;
+    height: 300px;
+    width: 200px;
+    margin-right: 50px;
+    border: 1px solid black;
     margin-bottom: 6px;
     border-radius: 5px;
 } 
+.card:hover{
+    box-shadow: 2px 2px 10px grey;
+}
 .img{
-    height : 80px;
-    width : 100px;
-    border: 2px solid black;
-    border-radius: 50%;
+    height : 60%;
+    width : 198px;
+    border-bottom: 1px solid black;
+    background-image: url(https://th.bing.com/th/id/OIP.ojiMo1kaujv8PL6K2iCCTgHaHa?w=193&h=193&c=7&r=0&o=7&pid=1.7&rm=3);
+    background-size: cover;
+}
+.details{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    line-height: 1.5;
 }
