@@ -19,7 +19,17 @@ h1{
     height : 60%;
     width : 198px;
     border-bottom: 1px solid black;
+}
+#img1{
     background-image: url(https://th.bing.com/th/id/OIP.ojiMo1kaujv8PL6K2iCCTgHaHa?w=193&h=193&c=7&r=0&o=7&pid=1.7&rm=3);
+    background-size: cover;
+}
+#img2{
+    background-image: url(https://th.bing.com/th/id/OIP.f4dH-gPD6MXJrZGZjrhEOQHaHa?w=178&h=180&c=7&r=0&o=7&pid=1.7&rm=3);
+    background-size: cover;
+}
+#img3{
+    background-image: url(https://th.bing.com/th/id/OIP.EvplPjZ-d7vge_K1sIUGIAHaE8?w=256&h=180&c=7&r=0&o=7&pid=1.7&rm=3);
     background-size: cover;
 }
 .details{
