@@ -1,7 +1,7 @@
 h1{
     color: rgb(0, 0, 0);
 }
-.outBox{
+.cardBox{
     display: flex;
 }
 .card{
@@ -37,4 +37,18 @@ h1{
     margin-top: 10px;
     padding-top: 20px;
     line-height: 1.5;
+}
+#description{
+    display: flex;
+}
+.info{
+    border: 1px solid black;
+    margin-right: 5px;
+    padding: 5px;
+    display: none;
+}
+.dis{
+    border: 1px solid black;
+    margin-right: 5px;
+    padding: 5px;
 }
