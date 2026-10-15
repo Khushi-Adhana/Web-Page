@@ -42,9 +42,13 @@ h1{
     display: flex;
 }
 .info{
-    height: fit-content;
-    width: fit-content;
     border: 1px solid black;
-    margin-right: 50px;
-    padding: 7px;
+    margin-right: 5px;
+    padding: 5px;
+    display: none;
+}
+.dis{
+    border: 1px solid black;
+    margin-right: 5px;
+    padding: 5px;
 }
